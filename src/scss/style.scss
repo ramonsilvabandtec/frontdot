@@ -1,0 +1,42 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import CoreUI styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+// Some temp fixes
+@import "fixes";
+
+// If you want to add something do it here
+@import "custom";
+.sideImg {
+    height: 100vh;
+    text-align: left;
+}
+.teste2 {
+    text-align: center;
+    
+    padding: 20px;
+}
+.linha {
+    display: flex;
+    
+    &:before,
+    &:after {
+      content: "";
+      flex: 2;
+    }
+          &:before,
+      &:after {
+        background: black;
+      }
+       align-items: center;
+    margin: 1em -1em;
+    
+    &:before,
+    &:after {
+      height: 0.5px;
+      margin: 0 1em;
+    }
+  }
+  
