@@ -11,13 +11,11 @@ import {
   CInput,
   CSelect,
   CInputRadio,
-  CSubheader,
-  CHeader,
   CSwitch
 } from '@coreui/react'
 import { DocsLink } from 'src/reusable'
 
-const Typography = () => {
+const CriarTestes = () => {
   return (
     <>
       <CCard>
@@ -240,4 +238,4 @@ const Typography = () => {
   )
 }
 
-export default Typography
+export default CriarTestes

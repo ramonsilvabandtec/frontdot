@@ -23,7 +23,7 @@ const _nav =  [
   {
     _tag: 'CSidebarNavItem',
     name: 'Relatórios',
-    to: '/theme/typography',
+    to: '/criarTestes',
     icon: <CIcon name="cil-graph" customClasses="c-sidebar-nav-icon"/>,
   },
   {
